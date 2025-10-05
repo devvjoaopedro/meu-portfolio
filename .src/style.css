@@ -1,0 +1,135 @@
+* {
+    padding: 0; /* Remove o espaçamento interno padrão */
+    margin: 0;  /* Remove a margem padrão */
+    font-family: Georgia, sans-serif; /* Define a fonte padrão */
+}
+
+body {
+    background-color: #060b13; /* Cor de fundo do body */
+    color: #ffffff;            /* Cor do texto */
+    margin: 50px;              /* Margem externa */
+    padding: 0;                /* Remove o padding */
+}
+
+a {
+    color: #ffffff;            /* Cor dos links */
+    text-decoration: none;     /* Remove sublinhado dos links */
+    margin: 10px;              /* Espaçamento entre links */
+}
+
+.foto-perfil {
+    width: 300px;              /* Largura da imagem */
+    height: 300px;             /* Altura da imagem */
+    border-radius: 50%;        /* Deixa a imagem redonda */
+    border: 5px solid #000000; /* Borda preta */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra ao redor da imagem */
+    margin-bottom: 20px;       /* Espaço abaixo da imagem */
+    margin-top: 30px;          /* Espaço acima da imagem */
+    display: block;            /* Exibe como bloco */
+    margin: 0 auto;            /* Centraliza horizontalmente */
+}
+
+h1 {
+    text-align: center;        /* Centraliza o título */
+    margin-bottom: 20px;       /* Espaço abaixo do título */
+}
+
+.menu {
+    display: flex;             /* Usa flexbox para o menu */
+    justify-content: center;   /* Centraliza os itens horizontalmente */
+    align-items: center;       /* Centraliza os itens verticalmente */
+    gap: 10px;                 /* Espaço entre os itens */
+    margin-bottom: 30px;       /* Espaço abaixo do menu */
+    cursor: pointer;           /* Cursor de ponteiro ao passar o mouse */
+}
+
+.menu a:hover {
+    background-color: #808080; /* Cor de fundo ao passar o mouse */
+    transition: 0.5s;          /* Suaviza a transição */
+    border-radius: 10px;       /* Cantos arredondados */
+    padding: 10px;             /* Espaçamento interno */
+}
+
+.sobre-box {
+    background: #ffffff;       /* fundo branco */
+    color: #000000;            /* texto preto */
+    padding: 20px;             /* espaçamento interno */
+    border-radius: 10px;       /* cantos arredondados */
+    max-width: 800px;          /* largura máxima */
+    margin: 20px auto;         /* centraliza horizontalmente */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra leve */
+}
+
+.sobre-box p {
+    text-align: justify;       /* texto justificado */
+    line-height: 1.6;          /* espaçamento entre linhas */
+}
+
+h2 {
+    text-align: center;        /* centraliza o título */
+    margin-bottom: 15px;       /* Espaço abaixo do subtítulo */
+}
+
+.footer {
+    text-align: center;        /* Centraliza o texto do rodapé */
+    margin-top: 50px;          /* Espaço acima do rodapé */
+    font-size: 14px;           /* Tamanho da fonte do rodapé */
+    color: #808080;            /* Cor do texto do rodapé */
+}
+
+.projetos {
+    display: flex;             /* Usa flexbox, deixa os cards um do lado do outro */
+    justify-content: center;   /* Centraliza os itens horizontalmente */
+    flex-wrap: wrap;           /* Permite que os itens quebrem linha */
+    gap: 20px;                 /* Espaço entre os itens */
+    margin-top: 30px;          /* Espaço acima da seção de projetos */
+    border-radius: 30px;       /* Cantos arredondados */
+}
+
+.card {
+  background: #f1f1f1;     /* Cor de fundo clara para o card */
+  padding: 20px;       /* Espaçamento interno */
+  height: 250px;      /* Altura fixa do card */
+  width: 180px;         /* Largura fixa do card */
+  border-radius: 10px;     /* Cantos arredondados */
+  margin: 15px;      /* Espaço ao redor do card */
+
+  display: flex;              /* ativa flexbox */
+  flex-direction: column;     /* organiza em coluna (imagem + texto) */
+  align-items: center;        /* centraliza horizontalmente */
+  justify-content: center;    /* centraliza verticalmente */
+  text-align: center;         /* garante que o texto também fique centralizado */
+  color: #000000;           /* Cor do texto dentro do card */
+}
+
+
+.card img {
+    width: 200px;             /* Largura da imagem do card */
+    height: 200px;            /* Altura da imagem do card */ 
+    margin-bottom: 15px;      /* Espaço abaixo da imagem */
+    text-align: center;       /* Centraliza a imagem */
+    border-radius: 10px;       /* Cantos arredondados */
+}
+
+.btn {
+  display: inline-block;     /* Permite definir largura e altura */
+  background: #808080;     /* Cor de fundo do botão */
+  color: #000000;       /* Cor do texto do botão */
+  padding: 10px 20px;       /* Espaçamento interno */
+  margin-top: 10px;         /* Espaço acima do botão */     
+  border-radius: 8px;       /* Cantos arredondados */
+  text-decoration: none;   /* Remove sublinhado */
+  font-weight: bold;    /* Deixa o texto em negrito */
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+
+
+
+
+html {
+    scroll-behavior: smooth;  /* Suaviza a rolagem para âncoras */
+}
