@@ -40,7 +40,7 @@ meu-portfolio/
 
 ## 📸 Demonstração
 
-👉 Acesse meu portfólio online: [Meu Portfólio](https://seu-link-aqui.vercel.app)
+👉 Acesse meu portfólio online: [Meu https://portfolio-joaopedrocolive.vercel.app/
 
 ---
 
